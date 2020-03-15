@@ -49,7 +49,7 @@ class Navigation extends Component {
 					key={`${weekDay}nvlnk`}
 					to={`/${weekDay}`}
 					exact
-					className={classes.Home}
+					className={classes.Day}
 					activeClassName={classes.active}
 				>
 					{weekDay}
