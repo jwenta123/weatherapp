@@ -1,0 +1,37 @@
+.Navigation {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Home {
+	width: 15%;
+}
+
+.Week {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.Navigation a:hover,
+.Navigation a:active {
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+.Navigation a.active {
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	border-bottom: 5px solid white;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.Navigation a {
+	text-decoration: none;
+	color: rgb(214, 214, 214);
+}
