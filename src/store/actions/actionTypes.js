@@ -1,0 +1,11 @@
+//main data
+export const FETCH_DATA = 'FETCH_DATA';
+export const FETCH_DATA_START = 'FETCH_DATA_START';
+export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS';
+export const FETCH_DATA_FAIL = 'FETCH_DATA_FAIL';
+
+//region changing
+export const REGION_SELECT = 'REGION_SELECT';
+export const REGION_SELECT_START = 'REGION_SELECT_START';
+export const REGION_SELECT_SUCCESS = 'REGION_SELECT_SUCCESS';
+export const REGION_SELECT_FAIL = 'REGION_SELECT_FAIL';

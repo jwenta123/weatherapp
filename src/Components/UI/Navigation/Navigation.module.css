@@ -1,0 +1,74 @@
+.Navigation {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Home {
+	width: 15%;
+}
+
+.Week {
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.Region {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.RegionForm {
+	margin: auto;
+	padding: 10px 0px 15px;
+	display: flex;
+	justify-content: space-around;
+	width: 700px;
+}
+
+input {
+	font-weight: bold;
+	width: 150px;
+	height: 20px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+select {
+	font-weight: bold;
+	width: 150px;
+	border-radius: 5px;
+}
+
+option {
+	font-weight: bolder;
+	text-align: center;
+}
+
+button {
+	font-weight: bolder;
+	width: 150px;
+	border-radius: 5px;
+}
+
+.Navigation a:hover,
+.Navigation a:active {
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+}
+
+.Navigation a.active {
+	font-weight: bolder;
+	color: rgb(255, 255, 255);
+	border-bottom: 5px solid white;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.Navigation a {
+	text-decoration: none;
+	color: rgb(214, 214, 214);
+}

@@ -1,9 +1,0 @@
-.Forecast {
-	text-align: center;
-	background-color: #282c34;
-	display: flex;
-	align-items: center;
-	min-height: 50vh;
-	justify-content: space-evenly;
-	color: white;
-}
