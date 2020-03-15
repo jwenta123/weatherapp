@@ -8,7 +8,7 @@ class HourlyCard extends Component {
 
 		return (
 			<div>
-				<div className={classes.WeatherCard}>
+				<div className={classes.HourlyCard}>
 					<div className={classes.Hour}>{hour}</div>
 					<div className={classes.Icon}>
 						<img

@@ -40,9 +40,7 @@ class HourlyForecast extends Component {
 		return (
 			<div>
 				{this.props.day}'s Forecast
-				<div className={classes.Forecast}>
-					<ul>{hourlyItems}</ul>
-				</div>
+				<div className={classes.Forecast}>{hourlyItems}</div>
 			</div>
 		);
 	}
