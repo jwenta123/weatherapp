@@ -1,16 +1,10 @@
-{
-  "hosting": {
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
-  }
+.Forecast {
+	text-align: center;
+	background-color: #282c34;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: space-evenly;
+	color: white;
 }
